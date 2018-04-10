@@ -1,0 +1,33 @@
+test{
+ background: linear-gradient(rgb(20, 66, 64),rgb(5, 166, 185));
+}
+
+
+
+background: linear-gradient( #69FF97 , #00E4FF );
+
+
+
+
+     background: linear-gradient(#3bd6c6, #43e8d8);
+
+
+
+
+     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+
+         background: linear-gradient( #53C6CD, #184358);
+
+              background-image: linear-gradient(120deg, #53C6CD 0%, #184358 100%);
+
+
+
+
+         background: linear-gradient(#8fd3f4, #53C6CD);
+         background: linear-gradient( #53C6CD, #8fd3f4);
+
+
+
+
+             background-image: linear-gradient(120deg, #53C6CD 0%, #184358 100%);
