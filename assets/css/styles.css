@@ -108,12 +108,11 @@ body {
   color: #fff ;
   transition: .3s;
   letter-spacing: 1px;
-  text-transform: capitalize;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.notification{
+.box-icon{
   height: 22px;
   width: 22px;
   display: flex;
@@ -1688,4 +1687,54 @@ box-shadow: 0 7px 12px rgba(0,0,0,.45);
   text-align: center;
 }
 
-/* ===== Products ====== */}
+/* ===== Products ====== */
+
+
+/* ===== Menu ====== */
+
+.list-item-category {
+    list-style: none !important;
+    margin: 5px 0px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 2px 0px 0px rgba(255, 255, 255, 0) inset;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+
+
+
+
+.items-menu-category {
+    margin: 6px 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 15px;
+    display: block;
+}
+
+
+#show-menu-category{
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+.hide-menu-category{
+   display: none !important;
+}
+
+#menu-category{
+    margin-bottom: 0;
+    list-style: none;
+    padding: 1px 0px;
+
+}
+
+.fa-chevron{
+  color: white !important;
+  font-size: 1.4rem !important;
+}

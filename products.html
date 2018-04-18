@@ -10,10 +10,6 @@
   <meta name="author" content="">
   <!-- Set CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/AdminLTE.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/_all-skins.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
@@ -258,15 +254,23 @@
   <div class="box-menu">
     <span class="title-item-menu">menú</span>
     <ul class="item-menu">
-      <!--       <li class="list-item"><a href="#" class="link-menu" dtarget="_black"><span class="items-menu">productos</span></a></li> -->
-      <li class="list-item"><a href="about.html" class="link-menu" dtarget="_black"><span class="items-menu">nosotros</span></a></li>
-      <li class="list-item"><a href="products.html" class="link-menu" dtarget="_black"><span class="items-menu">look book</span></a></li>
-      <li class="list-item"><a href="#" class="link-menu" dtarget="_black"><span class="items-menu">blog</span></a>
-        <div class="notification"><i class="fa fa-exclamation-circle fa-lg fa-notification" aria-hidden="true"></i></div>
+      <li class="list-item" id="show-menu-category"><a class="link-menu" "><span class="items-menu">Colecciones</span></a>
+        <div class="box-icon" id="chevron-boe"><i class="chevron-boe fa fa-chevron-down fa-chevron" aria-hidden="true"></i></div>
       </li>
-      <li class="list-item"><a href="#" class="link-menu" dtarget="_black"><span class="items-menu">contáctanos</span></a></li>
+      <ul id="menu-category">
+        <li class="items-menu-category"><a href="#"><span class="items-menu-category">Hippie Chic</span></a></li>
+        <li class="items-menu-category"><a href="#"><span class="items-menu-category">Alma Bohemia</span></a></li>
+        <li class="items-menu-category"><a href="#"><span class="items-menu-category">Cuero y Metal</span></a></li>
+        <li class="items-menu-category"><a href="#"><span class="items-menu-category">Boho Chic</span></a></li>
+        <li class="items-menu-category"><a href="#"><span class="items-menu-category">Básicos</span></a></li>
+      </ul>
+      <li class="list-item"><a href="about.html" class="link-menu" target="_black"><span class="items-menu">Nosotros</span></a></li>
+      <li class="list-item"><a href="products.html" class="link-menu" target="_black"><span class="items-menu">Look Book</span></a></li>
+      <li class="list-item"><a href="#" class="link-menu" target="_black"><span class="items-menu">Blog</span></a>
+        <div class="box-icon" id="notification-boe"><i class="fa fa-exclamation-circle fa-lg fa-notification" aria-hidden="true"></i></div>
+      </li>
+      <li class="list-item"><a href="#" class="link-menu" target="_black"><span class="items-menu">Contáctanos</span></a></li>
     </ul>
-
     <div class="box-social">
       <span class="title-social">Síguenos en nuestras</span>
       <span class="title-social">redes sociales</span>
@@ -285,6 +289,7 @@
   </div>
 </aside>
 </div>
+
 <section id="home" class="visible-lg">
   <div class="home">
     <div class="box-home">
@@ -323,107 +328,111 @@
               <section id="set-products">
                 <div id="box-products">    
                   <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/8.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/8.jpg" alt="">
-                         </div>
-                         <div class="card-info">
-                           <span class="title-card">Hippie Chic</span>
-                         </div>
-                       </div>
-                     </div>
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/8.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/8.jpg" alt="">
+                        </div>
+                        <div class="card-info">
+                          <span class="title-card">Hippie Chic</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/20.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/20.jpg" alt="">
-                         </div>
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/20.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/20.jpg" alt="">
+                        </div>
                         <div class="card-info">
-                           <span class="title-card">Alma Bohemia</span>
-                         </div>
-                       </div>
-                     </div>
+                          <span class="title-card">Alma Bohemia</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/18.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/18.jpg" alt="">
-                         </div>
-                         <div class="card-info">
-                           <span class="title-card">Cuero y Metal</span>
-                         </div>
-                       </div>
-                     </div>
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/18.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/18.jpg" alt="">
+                        </div>
+                        <div class="card-info">
+                          <span class="title-card">Cuero y Metal</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/11.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/11.jpg" alt="">
-                         </div>
-                         <div class="card-info">
-                           <span class="title-card">Boho Chic</span>
-                         </div>
-                       </div>
-                     </div>
-                  </div>
-                      <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/9.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/9.jpg" alt="">
-                         </div>
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/11.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/11.jpg" alt="">
+                        </div>
                         <div class="card-info">
-                           <span class="title-card">Básicos</span>
-                         </div>
-                       </div>
-                     </div>
+                          <span class="title-card">Boho Chic</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                      <div class="col-lg-4">
-                     <div class="card-content">
-                       <div class="card-product">
-                         <div class="card-image">
-                           <img src="assets/img/21.jpg" alt="" class="effect-blur">
-                           <img src="assets/img/21.jpg" alt="">
-                         </div>
+                  <div class="col-lg-4">
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/9.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/9.jpg" alt="">
+                        </div>
                         <div class="card-info">
-                           <span class="title-card">Boho Chic 2</span>
-                         </div>
-                       </div>
-                     </div>
+                          <span class="title-card">Básicos</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-     
+                  <div class="col-lg-4">
+                    <div class="card-content">
+                      <div class="card-product">
+                        <div class="card-image">
+                          <img src="assets/img/21.jpg" alt="" class="effect-blur">
+                          <img src="assets/img/21.jpg" alt="">
+                        </div>
+                        <div class="card-info">
+                          <span class="title-card">Boho Chic 2</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
+
         </div>
-      </section>
-      <!-- Set JS -->
-      <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-      <script src="assets/js/jquery-3.2.1.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/adminlte.js"></script>
-      <script src="assets/js/slick.min.js"></script>
-      <script src="assets/js/main.js"></script>
-    </body>
-    </html>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- Set JS -->
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/AdminLTE.css">
+<link rel="stylesheet" type="text/css" href="assets/css/_all-skins.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- <script src="assets/js/adminlte.js"></script> -->
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/carousel-home.js"></script>
+</body>
+</html>
 
 
 
